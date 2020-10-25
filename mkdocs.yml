@@ -3,7 +3,7 @@ nav:
     - Home: index.md
     - About: About.md
     - How it works: How.md
-    - Examples: Examples.md
+    - See Decibull in Action: Examples.md
     - Team: Team.md
     - Contact Us: Contact.md
 theme:
