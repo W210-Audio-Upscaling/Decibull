@@ -1,3 +1,8 @@
 site_name: Decibull
+nav:
+    - Home: index.md
+    - About: About.md
+    - How it works: How.md
+    - Examples: Examples.md
 theme:
     name: material
