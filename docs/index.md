@@ -1,4 +1,6 @@
-# Welcome to Decibull
+# Decibull - Deep Voice Enhancer
+
+![GAN Diagram](img/gan_diagram.png)
 
 **Is it hard to understand what your colleagues are saying while working from home?**
 
@@ -9,5 +11,3 @@ Get Decibull For Free (Link to download) (Make button)
 
 See How it works (Link to demo)
  
-
-
