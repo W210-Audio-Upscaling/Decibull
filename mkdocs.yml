@@ -8,3 +8,4 @@ nav:
     - Contact Us: Contact.md
 theme:
     name: material
+    logo: img/logo_large.png
