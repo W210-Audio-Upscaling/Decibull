@@ -10,4 +10,5 @@ theme:
     name: material
     logo: img/logo_large.png
 
-
+extra_css:
+    - stylesheets/extra.css
