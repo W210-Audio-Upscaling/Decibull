@@ -1,7 +1,7 @@
 site_name: DeciBull
 nav:
     - Home: index.md
-    - About: About.md
+    - About DeciBull: About.md
     - How it works: How.md
     - See DeciBull in Action: Examples.md
     - Team: Team.md
