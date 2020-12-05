@@ -7,3 +7,4 @@ to generate super resolution audio, most of the research has been focused on gen
 ![GAN](img/GAN_basic.PNG)
 
 We use the traditional GAN architecture where the generator comrises of multiple fully connected neural net layers with relu activation function. Decibull is trained on more than 80GB of speech data from multiple languages so that it can work for different speakers and volume pitch.
+![GAN Diagram](img/gan_diagram.png)
