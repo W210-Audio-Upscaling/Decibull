@@ -5,7 +5,6 @@ nav:
     - How it works: How.md
     - See DeciBull in Action: Examples.md
     - Team: Team.md
-    - Contact Us: Contact.md
 theme:
     name: material
     logo: img/logo_large.png
