@@ -1,13 +1,14 @@
 # Our Team
 
-![Tyler](img/tyler.png)
-*Below: Tyler Ryu (Data Scientist)*
+<figure>
+  <img src=img/tyler.png" width="300" />
+  <figcaption>Tyler Ryu (Data Scientist)</figcaption>
+</figure>
 
-![Patricia](img/patti.png)
-*Below: Patricia Degner (Data Scientist)*
-
-![Suyash](img/suyash.jpg)
-*Below: Suyash Dusad (Data Scientist)*
+<figure>
+  <img src=img/patti.png" width="300" />
+  <figcaption>Patricia Degner (Data Scientist)</figcaption>
+</figure>
 
 <figure>
   <img src=img/suyash.jpg" width="300" />
