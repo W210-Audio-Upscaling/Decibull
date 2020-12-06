@@ -1,20 +1,16 @@
 # Our Team
 
 <figure>
-  <img src="img/tyler.png" width="300">
+  <img src="/img/tyler.png" width="200">
   <figcaption>Tyler Ryu (Data Scientist)</figcaption>
 </figure>
 
 <figure>
-  <img src="img/patti.png" width="300">
+  <img src="/img/patti.png" width="200">
   <figcaption>Patricia Degner (Data Scientist)</figcaption>
 </figure>
 
 <figure>
-  <img src="/img/suyash.jpg" width="300">
+  <img src="/img/suyash.jpg" width="200">
   <figcaption>Suyash Dusad (Data Scientist)</figcaption>
 </figure>
-
-![Suyash](img/suyash.jpg "Suyash Dusad"){: style="height:200px;width:200px"}
-
-<img alt="Suyash" src="/img/suyash.jpg" title="Suyash Dusad (Data Scientist)" />
