@@ -10,6 +10,6 @@
 *Below: Suyash Dusad (Data Scientist)*
 
 <figure>
-  <img/suyash.jpg" width="300" />
+  <img src=img/suyash.jpg" width="300" />
   <figcaption>Suyash Dusad (Data Scientist)</figcaption>
 </figure>
