@@ -14,3 +14,5 @@
   <img src="img/suyash.jpg" width="300" />
   <figcaption>Suyash Dusad (Data Scientist)</figcaption>
 </figure>
+
+![Suyash](img/suyash.jpg "Suyash Dusad (Data Scientist)")
