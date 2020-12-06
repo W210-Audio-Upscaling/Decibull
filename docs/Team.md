@@ -11,8 +11,10 @@
 </figure>
 
 <figure>
-  <img src="img/suyash.jpg" width="300">
+  <img src="/img/suyash.jpg" width="300">
   <figcaption>Suyash Dusad (Data Scientist)</figcaption>
 </figure>
 
 ![Suyash](img/suyash.jpg "Suyash Dusad"){: style="height:200px;width:200px"}
+
+<img alt="Suyash" src="/img/suyash.jpg" title="Suyash Dusad (Data Scientist)" />
