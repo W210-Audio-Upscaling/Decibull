@@ -15,4 +15,4 @@
   <figcaption>Suyash Dusad (Data Scientist)</figcaption>
 </figure>
 
-![Suyash](img/suyash.jpg "Suyash Dusad")
+![Suyash](img/suyash.jpg "Suyash Dusad"){: style="height:150px;width:150px"}
