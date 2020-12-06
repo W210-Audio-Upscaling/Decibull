@@ -1,7 +1,10 @@
 # Our Team
 
-Tyler Ryu
+![Tyler](img/tyler.png)
+*Below: Tyler Ryu (Data Scientist)*
 
-Patti Degner
+![Patricia](img/patti.png)
+*Below: Patricia Degner (Data Scientist)*
 
-Suyash Dusad
+![Suyash](img/suyash.jpg)
+*Below: Suyash Dusad (Data Scientist)*
