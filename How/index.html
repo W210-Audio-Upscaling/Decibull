@@ -274,9 +274,9 @@ to generate super resolution audio, most of the research has been focused on gen
 We evaluate our generated audio on two metrics: (1) Square of differences, (2) Bit error rate
 Our first evaluation metric just evaluates how close the two audio signals (generated vs original high quality audio) are by comparing the raw waveforms at each audio sample and taking the square of differences of the two data points. 
 <img alt="Square Differences" src="../img/square_diff.PNG" /></p>
-<p>We also evaluate our audio samples using a more sophisticated methodology by creating an Audio Fingerprint of each audio file. The concept is similar to how apps like Shazam identify songs by listening to them since each song has a unique energy sequence at different frequency and time domain. In our scenario we hash each of these energy values to bits and then compare the overall bit error rate between two audio files. To hash an audio file we convert the audio file into fingerprint blocks and then within each fingerprint block we segment our audio into frequency bands. For each Frequency band in a single frame (time window) of audio, we then compute the Energy and then hash them into bits by comparing neighbouring Energy values.
-Once we have computed these bits for each frame, we then compare the bits at each frequency and time domain to get the bit errors as illustrated in figure below. 
-<img alt="Fingerprint Equation" src="../img/equation_fingerprint.PNG" /> <img alt="Bit Error rate" src="../img/bit_error_rate.PNG" /></p>
+<p>We also evaluate our audio samples using a more sophisticated methodology by creating an Audio Fingerprint of each audio file. The concept is similar to how apps like Shazam identify songs by listening to them since each song has a unique energy sequence at different frequency and time domain. In our scenario we hash each of these energy values to bits and then compare the overall bit error rate between two audio files. To hash an audio file we convert the audio file into fingerprint blocks and then within each fingerprint block we segment our audio into frequency bands. For each frequency band in a single frame (time window) of audio, we then compute the energy and then hash them into bits by comparing neighbouring energy values.
+Once we have computed these bits for each frame, we then compare the bits at each frequency and time domain to get the bit errors. 
+<img alt="Bit Erro rate" src="../img/fingerprint_example.png" /></p>
                 
               
               
