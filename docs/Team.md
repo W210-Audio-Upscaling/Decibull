@@ -15,4 +15,4 @@
   <figcaption>Suyash Dusad (Data Scientist)</figcaption>
 </figure>
 
-![Suyash](img/suyash.jpg "Suyash Dusad (Data Scientist)")
+![Suyash](img/suyash.jpg "Suyash Dusad")
