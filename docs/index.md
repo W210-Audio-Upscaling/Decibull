@@ -1,7 +1,8 @@
 # DeciBull - Deep Voice Enhancer
 
 
-## **Is it hard to understand what your colleagues are saying while working from home?**
+## Is it hard to understand what your colleagues are saying while working from home?
+![Conference Call](img/conference_call.PNG)
 
-**DeciBull will improve your online experience when talking to your colleagues or friends.**
+**DeciBull will help improve your online experience when talking to your colleagues or friends.**
 
