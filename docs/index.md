@@ -1,14 +1,11 @@
 # DeciBull - Deep Voice Enhancer
 
-
 ## Working from home!?!
 
 **Is it hard to understand what your colleagues are saying while working from home?**
-
 <figure>
-  <img src="/img/conference_call.PNG" width="500">
+  <img src="/img/conference_call.PNG" width="450">
 </figure>
-
 
 [Try DeciBull](About){: .md-button }
 
