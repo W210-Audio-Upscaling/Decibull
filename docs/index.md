@@ -1,4 +1,4 @@
-# DeciBull - Deep Voice Enhancer
+# DeciBull
 
 ## Working from home!?!
 
