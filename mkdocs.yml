@@ -8,6 +8,8 @@ nav:
 theme:
     name: material
     logo: img/logo_large.png
+    features: 
+        - navigation.tabs
 
 extra_css:
     - stylesheets/extra.css
@@ -15,3 +17,4 @@ markdown_extensions:
   - attr_list
   - toc:
       toc_depth : "1-1"
+

@@ -36,5 +36,3 @@ We also evaluate our audio samples using a more sophisticated methodology by cre
 </figure>
 
 Our model is integrated with an electron GUI that can be integrated with your audio device by changing the output of audio. This will stream your low quality audio to high quality generated audio to improve your online calling experience. 
-
-[See DeciBull in Action](decibull.app/Examples){: .md-button }
