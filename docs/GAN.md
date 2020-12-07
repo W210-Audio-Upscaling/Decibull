@@ -1,4 +1,4 @@
-# GAN networks and DeciBull Network Architecture
+# DeciBull Network Architecture
 We use the traditional GAN architecture where the generator comprises of multiple fully connected neural net layers with relu activation function and the discriminator is a simple classification neural network to identify real vs generated high quality audio. DeciBull is trained on more than 80GB of high quality uncompressed speech data from multiple languages so that it can work for different speakers and dialects.
 
 <figure>
