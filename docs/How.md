@@ -5,14 +5,14 @@ A GAN comprises of two models i.e. a generator and a discriminator model which a
 to generate super resolution audio, most of the research has been focused on generating batch high resolution audio. DeciBull attempts to use GANs to stream super resolution audio realtime.
 
 <figure>
-  <img src="/img/GAN_basic.PNG" width="400">
+  <img src="/img/GAN_basic.PNG" width="600">
   <figcaption>Super-resolution Audio generation using GANs</figcaption>
 </figure>
 
 We use the traditional GAN architecture where the generator comprises of multiple fully connected neural net layers with relu activation function and the discriminator is a simple classification neural network to identify real vs generated high quality audio. DeciBull is trained on more than 80GB of high quality uncompressed speech data from multiple languages so that it can work for different speakers and dialects.
 
 <figure>
-  <img src="/img/gan_diagram.png" width="400">
+  <img src="/img/gan_diagram.png" width="600">
   <figcaption>GAN architecture for DeciBull</figcaption>
 </figure>
 

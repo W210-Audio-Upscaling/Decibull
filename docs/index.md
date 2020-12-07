@@ -5,7 +5,10 @@
 
 **Is it hard to understand what your colleagues are saying while working from home?**
 
-![Conference Call](img/conference_call.PNG)
+<figure>
+  <img src="/img/conference_call.PNG" width="500">
+</figure>
+
 
 [Try DeciBull](About){: .md-button }
 
