@@ -34,3 +34,7 @@ We also evaluate our audio samples using a more sophisticated methodology by cre
   <img src="/img/fingerprint_example.png" width="400">
   <figcaption>Comparing fingerprints for low vs high quality audio</figcaption>
 </figure>
+
+Our model is integrated with an electron GUI that can be integrated with your audio device by changing the output of audio. This will stream your low quality audio to high quality generated audio to improve your online calling experience. 
+
+[See DeciBull in Action](Examples){: .md-button }
