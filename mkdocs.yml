@@ -5,6 +5,8 @@ nav:
     - How it works: How.md
     - See DeciBull in Action: Examples.md
     - Team: Team.md
+feature:
+    tabs: true
 theme:
     name: material
     logo: img/logo_large.png
