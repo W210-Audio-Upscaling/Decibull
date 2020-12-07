@@ -1,12 +1,23 @@
 site_name: DeciBull
 nav:
-    - Home: index.md
-    - About DeciBull: About.md
-    - How it works: How.md
-    - See DeciBull in Action: Examples.md
-    - Team: Team.md
+    - Home: 
+        - index.md
+    - About:
+        - About.md
+        - Motivation.md
+    - How it works:
+        - AudioSuperResolution.md
+        - GAN.md
+        - Evaluation.md
+    - See DeciBull in Action:
+        - Examples.md
+    - Team:
+        - Team.md
+        - Contact.md
 feature:
     tabs: true
+hide:
+    - navigation # Hide navigation
 theme:
     name: material
     logo: img/logo_large.png
@@ -17,6 +28,7 @@ extra_css:
     - stylesheets/extra.css
 markdown_extensions:
   - attr_list
+  - meta
   - toc:
       toc_depth : "1-1"
 
