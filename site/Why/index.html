@@ -13,7 +13,7 @@
     
     
       
-        <title>DeciBull Network Architecture - DeciBull</title>
+        <title>Why you need DeciBull? - DeciBull</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#decibull-network-architecture" class="md-skip">
+        <a href="#why-you-need-decibull" class="md-skip">
           Skip to content
         </a>
       
@@ -87,7 +87,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              DeciBull Network Architecture
+              Why you need DeciBull?
             
           </span>
         </div>
@@ -145,7 +145,7 @@
   
     <li class="md-tabs__item">
       
-        <a href=".." class="md-tabs__link">
+        <a href=".." class="md-tabs__link md-tabs__link--active">
           Home
         </a>
       
@@ -171,7 +171,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../AudioSuperResolution/" class="md-tabs__link md-tabs__link--active">
+        <a href="../AudioSuperResolution/" class="md-tabs__link">
           How it works
         </a>
       
@@ -235,10 +235,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
     
     <label class="md-nav__link" for="nav-1">
       Home
@@ -268,11 +270,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../Why/" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       Why you need DeciBull?
     </a>
+    
   </li>
 
         
@@ -335,12 +346,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       How it works
@@ -370,20 +379,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../GAN/" class="md-nav__link">
       DeciBull Network Architecture
     </a>
-    
   </li>
 
         
@@ -520,14 +520,14 @@
               
                 
                 
-                <h1 id="decibull-network-architecture">DeciBull Network Architecture</h1>
-<p>We use the a generative model architecture where the generator comprises of multiple fully connected neural net layers with relu activation function and instead of using a discriminator we optimise the generator loss by comparing the real vs generated high quality audio. DeciBull is trained on more than 80GB of high quality uncompressed speech data from multiple languages so that it can work for different speakers and dialects.</p>
+                <h1 id="why-you-need-decibull">Why you need DeciBull?</h1>
+<h3>Is it hard to understand what your colleagues are saying while working from home?</h3>
 <figure>
-  <img src="/img/gan_diagram.png" width="600">
-  <figcaption>Network architecture for DeciBull</figcaption>
+  <img src="/img/conference_call.PNG" width="450">
 </figure>
 
-<p>We train by compressing our high quality audio data to low quality for training with the target of generating the original high quality audio. Before pushing the low quality audio to the network, we transform the audio waveform into frequency and time domain using a Fourier transform to generate a spectrogram. We then push audio amplitudes at different frequencies for 10ms audio chunks into the model to generate higher quality audio realtime. Applications such as Zoom stream audio at a bit depth of below 64k and Decibull generates audio to match a standardized 320k bit depth and 48k sampling rate.</p>
+<h3>DeciBull will help enhance your experience when talking to your colleagues or friends by transmitting higher quality audio on your device.</h3>
+<p><a class="md-button" href="About">Try DeciBull</a></p>
                 
               
               
@@ -546,7 +546,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../AudioSuperResolution/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href=".." class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -555,19 +555,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Super-Resolution Audio
+                DeciBull
               </div>
             </div>
           </a>
         
         
-          <a href="../Evaluation/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../About/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Audio Quality Evaluation
+                About DeciBull
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

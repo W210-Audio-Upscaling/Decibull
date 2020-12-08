@@ -7,4 +7,3 @@
 
 ### DeciBull will help enhance your experience when talking to your colleagues or friends by transmitting higher quality audio on your device.
 
-[Try DeciBull](About){: .md-button }
