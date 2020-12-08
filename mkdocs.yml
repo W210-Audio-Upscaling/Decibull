@@ -2,6 +2,7 @@ site_name: DeciBull
 nav:
     - Home: 
         - index.md
+        - Why.md
     - About:
         - About.md
         - Motivation.md
@@ -14,15 +15,13 @@ nav:
     - Team:
         - Team.md
         - Contact.md
-feature:
-    tabs: true
-hide:
-    - navigation # Hide navigation
 theme:
     name: material
     logo: img/logo_large.png
     features: 
         - navigation.tabs
+    font:
+        text: Roboto
 
 extra_css:
     - stylesheets/extra.css

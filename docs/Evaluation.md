@@ -1,4 +1,5 @@
-#Audio Quality Evaluation
+# Audio Quality Evaluation
+
 Evaluation of audio quality is very important to understand how good or bad our generated audio is. Human ears are very sharp in identifying any background noise or disturbance in audio quality. However for DeciBull we wanted to comeup with more automated metrics that can help us evaluate our model output. We evaluate our generated audio on two metrics: (1) Square of differences (2) Bit error rate
 
 Our first evaluation metric just evaluates how close the two audio signals (generated vs original high quality audio) are by comparing the raw waveforms at each audio sample and taking the square of differences of the two data points. 
